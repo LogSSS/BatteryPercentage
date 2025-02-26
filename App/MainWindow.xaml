@@ -10,7 +10,7 @@
                  Height="800"
                  Width="600"
                  WindowStartupLocation="CenterScreen">
-    <Grid>
+    <Grid Background="Black">
         <ui:NavigationView Padding="42,0,42,12"
                            IsPaneOpen="False"
                            OpenPaneLength="110"

@@ -249,8 +249,6 @@ public partial class NotifyIconWindow
             {
                 if (percent == 100)
                 {
-                    NotifyIcon.SetBatteryFullIcon();
-
                     var powerLineText = powerStatus.PowerLineStatus == PowerLineStatus.Online
                         ? " and connected to power"
                         : null;
